@@ -29,7 +29,7 @@ def operand(oper, numb_operand):
 
 
 oper = input('\nВведите операцию: ')
-oper = contr_input(oper)
+#oper = contr_input(oper)
 numb_operand = int(input('Сколько будет операндов? '))
 answer, formula = operand(oper, numb_operand)
 
